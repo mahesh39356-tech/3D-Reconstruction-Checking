@@ -1,0 +1,14 @@
+numpy
+opencv-python
+open3d
+scipy
+pillow
+streamlit
+rembg
+matplotlib
+scikit-image
+plotly
+pandas
+streamlit-autorefresh
+scikit-learn
+onnxruntime

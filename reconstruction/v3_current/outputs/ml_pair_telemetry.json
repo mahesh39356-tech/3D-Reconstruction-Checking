@@ -1,0 +1,21 @@
+{
+  "total_images": 67,
+  "exhaustive_pairs": 2211,
+  "exhaustive_pairs_baseline": 2211,
+  "candidate_pairs": 476,
+  "candidate_pairs_selected": 476,
+  "pair_reduction_pct": 78.47,
+  "pairs_reduction_percent": 78.47,
+  "connected_components": 1,
+  "is_connected": true,
+  "min_degree": 10,
+  "max_degree": 27,
+  "avg_degree": 14.21,
+  "mean_degree": 14.21,
+  "top_k": 10,
+  "min_pairs_per_image": 5,
+  "similarity_threshold": 0.0,
+  "embedding_method": "spatial_pyramid",
+  "computation_time_seconds": 11.357,
+  "matcher_mode": "ml_ranked"
+}

@@ -1,0 +1,22 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Generated reconstruction files
+output/*
+colmap_workspace/*
+temp_session*/
+*.ply
+*.obj
+
+# Local datasets
+datasets/*
+
+# IDE
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db

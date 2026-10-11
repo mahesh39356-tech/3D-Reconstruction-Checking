@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "C:\Users\Del\Desktop\project\PowerTwinAI\reconstruction\v3_current\reconstruction_runner.py", line 220, in <module>
+    dense_ply_path = backend_manager.run(
+  File "C:\Users\Del\Desktop\project\PowerTwinAI\reconstruction\v3_current\backends\backend_manager.py", line 45, in run
+    return run_colmap_backend(
+  File "C:\Users\Del\Desktop\project\PowerTwinAI\reconstruction\v3_current\backends\colmap_backend.py", line 23, in run_colmap_backend
+    run_colmap(
+  File "C:\Users\Del\Desktop\project\PowerTwinAI\reconstruction\v3_current\run_colmap.py", line 403, in run_colmap
+    raise RuntimeError(
+RuntimeError: [COLMAP] feature matcher failed (exit code 3221225786)

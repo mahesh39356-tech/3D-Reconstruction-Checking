@@ -1,0 +1,22 @@
+# Neuralangelo Training Configuration
+data:
+  read_empty: false
+  image_dir: images
+  transforms_file: transforms.json
+  downscale_ratio: 1
+  scene_type: indoor
+
+model:
+  surface_type: sdf
+  hash_grid:
+    n_levels: 16
+    n_features_per_level: 2
+    log2_hashmap_size: 19
+    base_resolution: 16
+    finest_resolution: 2048
+
+training:
+  max_iterations: 300000
+  batch_size: 1
+  gradient_scaling: true
+  warm_up_steps: 5000
